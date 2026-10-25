@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angelyn B. Bustamante | Backend Developer &amp; Game Designer</title>
+  <meta name="description" content="Portfolio of Angelyn B. Bustamante, a student backend developer and game designer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Yellowtail&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top" id="home">
+    <a class="brand" href="#home">ANGELYN</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <nav id="nav" class="nav">
+      <a href="#about">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="dark" href="mailto:elynx.xoxo@gmail.com">Email me</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-photo ph" role="img" aria-label="Photo of Angelyn (add your picture)">
+        <img src="images/hero.jpg" alt="Angelyn B. Bustamante" onerror="this.remove()">
+      </div>
+      <p class="bubble hero-bubble">backend dev &amp;<br>game designer</p>
+      <h1 class="wordmark" aria-label="Angelyn B. Bustamante">angelyn</h1>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="block">
+      <div class="row head">
+        <h2>About me</h2>
+        <p class="tagline">I'm Angelyn B. Bustamante, a student who loves building things.</p>
+      </div>
+      <div class="about">
+        <div class="oval-wrap">
+          <div class="oval ph"><img src="images/aboutme.jpg" alt="Angelyn B. Bustamante" onerror="this.remove()"></div>
+          <p class="bubble b1">Backend developer<br>in the making.</p>
+          <p class="bubble b2">Game designer<br>at heart.</p>
+        </div>
+        <div class="cols three">
+          <p>I'm an IT student with two interests that go well together: backend development, where I work on the logic, data and servers behind an application, and game design, where I think about how people play and feel.</p>
+          <p>My most significant work so far is our capstone project, SafetyPulse, an IoT wristband that detects falls and heat-related strain in construction workers. I served as a backend developer in our team.</p>
+          <p>I'm still growing. I'm looking for chances to practice, learn from others and build more projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="block">
+      <div class="row head"><h2>What I'm working on</h2></div>
+      <div class="skills">
+        <div class="cols four">
+          <p><strong>Backend development</strong>Building server-side logic and working with data in a real team project. <em>Practicing</em></p>
+          <p><strong>Game design</strong>Thinking through gameplay, rules and player experience. <em>Learning</em></p>
+          <p><strong>Teamwork</strong>Sharing tasks and delivering a capstone together with classmates. <em>Practicing</em></p>
+          <p><strong>Web basics</strong>HTML, CSS and JavaScript, used to build and publish this portfolio. <em>Learning</em></p>
+        </div>
+        <aside class="side">
+          <p class="bubble">still learning,<br>always building!</p>
+          <span class="line"></span>
+          <a class="cta-title" href="#contact">Work with me</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="block">
+      <div class="row head"><h2>My project</h2></div>
+      <div class="drops">
+        <aside class="side">
+          <p class="bubble">my capstone<br>project</p>
+          <span class="line"></span>
+          <p class="cta-title">Team<br>project</p>
+        </aside>
+        <article class="tile">
+          <p class="label">Capstone project</p>
+          <div class="tile-img ph" role="img" aria-label="SafetyPulse screenshot (add your screenshot)">
+            <img src="images/safetypulse.jpg" alt="SafetyPulse screenshot" onerror="this.remove()">
+          </div>
+          <h3 class="tile-title">SafetyPulse</h3>
+        </article>
+        <article class="tile">
+          <p class="label">About the project</p>
+          <div class="tile-img note">
+            <p><strong>SafetyPulse</strong></p>
+            <p>An IoT-based wristband with AI fall and heat-related strain detection for RL Construction and Supply Corporation. It detects falls and monitors signs of heat strain in construction workers using motion, impact, body temperature and heart rate sensors.</p>
+            <p>A barometer and Bluetooth Low Energy beacons locate the worker's floor and area. Decision tree and random forest models analyze the data, and hazard alerts are sent over BLE 5.0 to a mobile app for supervisors and safety officers.</p>
+            <p><span class="role">My role: Backend developer</span></p>
+            <!-- Live link available? <a class="btn" href="https://YOUR-LINK" target="_blank" rel="noopener">View live project</a> -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="block contact">
+      <div class="row head"><h2>Contact</h2></div>
+      <div class="contact-grid">
+        <div class="cols one">
+          <p>Have a question, feedback or an opportunity? I'd love to hear from you.</p>
+          <p>Email<br><a href="mailto:elynx.xoxo@gmail.com">elynx.xoxo@gmail.com</a></p>
+        </div>
+        <div class="contact-img ph"><img src="images/contact.jpg" alt="Angelyn B. Bustamante" onerror="this.remove()"></div>
+        <aside class="side">
+          <p class="cta-title">Say hello!</p>
+          <span class="line up"></span>
+          <a class="btn" href="mailto:elynx.xoxo@gmail.com">Email me</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p class="wordmark" aria-hidden="true">angelyn</p>
+    <small>&copy; <span id="year">2026</span> Angelyn B. Bustamante</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
