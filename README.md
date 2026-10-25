@@ -1,3 +1,4 @@
 # Angelyn B. Bustamante – Portfolio
-Plain HTML/CSS/JS site. Publish with GitHub Pages (Settings > Pages > main / root).
-Edit TODO: replace images/safetypulse.svg with a SafetyPulse screenshot (update the src in index.html), add a live link if available, adjust skills to match your real abilities.
+A personal portfolio website for Angelyn B. Bustamante, a student backend developer and game designer. It features her capstone project, SafetyPulse: an IoT wristband with AI fall and heat-related strain detection for RL Construction and Supply Corporation.
+
+Built with plain HTML, CSS and JavaScript (no framework, no build step). Works on phone and computer.
